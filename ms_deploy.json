@@ -1,0 +1,8 @@
+{
+  "sdk_type": "gradio",
+  "resource_conf": {
+    "cpu": 2,
+    "memory": "16GB"
+  },
+  "port": 7860
+}
