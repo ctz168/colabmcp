@@ -2,7 +2,8 @@
 
 [English](README.md) | [中文](READMecn.md)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server_en.ipynb)
+[![在 Colab 中打开](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-2.0.0-green.svg)](https://github.com/ctz168/colabmcp)
 
@@ -68,7 +69,9 @@
 
 ## 📦 Google Colab 部署
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server_en.ipynb)  [![在 Colab 中打开](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server.ipynb)
+
+> Notebook 提供 [English](colab_mcp_server_en.ipynb) 和 [中文](colab_mcp_server.ipynb) 两个版本。
 
 ### 步骤
 
@@ -102,7 +105,8 @@ AITUN_SUBDOMAIN = "myname"  # 获得 https://myname.t.aitun.cc
 colabmcp/
 ├── README.md                      # 项目文档 (英文)
 ├── READMecn.md                    # 项目文档 (中文)
-├── colab_mcp_server.ipynb         # Colab 一键启动 Notebook (AiTun 隧道)
+├── colab_mcp_server_en.ipynb      # Colab 一键启动 Notebook — 英文
+├── colab_mcp_server.ipynb         # Colab 一键启动 Notebook — 中文
 ├── app.py                         # 服务器主程序 v2.0
 ├── aitun_tunnel.py                # AiTun 隧道守护器 (Colab/Codespace 用)
 ├── proxy_server.py                # HTTP 代理服务 (通过 AiTun 暴露)

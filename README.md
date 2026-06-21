@@ -2,7 +2,8 @@
 
 [English](README.md) | [中文](READMecn.md)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server_en.ipynb)
+[![在 Colab 中打开](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-2.0.0-green.svg)](https://github.com/ctz168/colabmcp)
 
@@ -69,7 +70,9 @@ Remotely control cloud runtimes (Google Colab, Codespaces, your own server) via 
 
 ## 📦 Google Colab Deployment
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server_en.ipynb)  [![在 Colab 中打开](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctz168/colabmcp/blob/main/colab_mcp_server.ipynb)
+
+> Notebook available in [English](colab_mcp_server_en.ipynb) and [中文](colab_mcp_server.ipynb).
 
 ### Steps
 
@@ -103,7 +106,8 @@ Register at [aitun.cc](https://aitun.cc) to get a token.
 colabmcp/
 ├── README.md                      # Project documentation (English)
 ├── READMecn.md                    # 项目文档 (中文)
-├── colab_mcp_server.ipynb         # Colab one-click startup notebook (AiTun tunnel)
+├── colab_mcp_server_en.ipynb      # Colab one-click startup notebook — English
+├── colab_mcp_server.ipynb         # Colab 一键启动 Notebook — 中文
 ├── app.py                         # Main server v2.0
 ├── aitun_tunnel.py                # AiTun tunnel watchdog (Colab/Codespace)
 ├── proxy_server.py                # HTTP proxy service (exposed via AiTun)
