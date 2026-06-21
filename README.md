@@ -16,7 +16,7 @@
 - 📦 **自动安装** — aitun-client 二进制通过官方 install.sh 安装，带 SHA256 校验
 
 ### 稳定性增强
-- 🧠 **单一命名空间 exec()** — 变量跨请求持久化（参考 [colabcli_tc](https://github.com/ctz168/colabcli_tc)）
+- 🧠 **单一命名空间 exec()** — 变量跨请求持久化
 - 💾 **异常时仍保存变量** — 部分执行结果不丢失
 - ⏹️ **`/interrupt`** — 中断当前执行（不停止服务器），通过 ctypes 注入 KeyboardInterrupt
 - 📊 **`/status`** — 实时查看执行状态、当前目录、最近命令
@@ -29,7 +29,6 @@
 ### API 兼容性
 - ✅ 完全向后兼容 v1.x 的端点（`/health`、`/execute`、`/variables` 等）
 - ✅ v2.0 新增 `/status`、`/history`、`/interrupt`、`/execute_stream`
-- ✅ 兼容 [colabcli_tc](https://github.com/ctz168/colabcli_tc) CLI 工具
 
 ## 🏗️ 架构
 
@@ -228,18 +227,6 @@ client.interrupt()
 print(client.get_status())
 ```
 
-### 配合 colabcli_tc 使用
-
-本项目完全兼容 [colabcli_tc](https://github.com/ctz168/colabcli_tc) 的 CLI 工具：
-
-```bash
-pip install git+https://github.com/ctz168/colabcli_tc.git
-
-colabmcp health --url https://aitun.cc/XXXXXXXX
-colabmcp remote notebook.ipynb --url https://aitun.cc/XXXXXXXX
-colabmcp stream notebook.ipynb --url https://aitun.cc/XXXXXXXX
-```
-
 ---
 
 ## 📝 使用示例
@@ -373,7 +360,6 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 - [Google Colab](https://colab.research.google.com) - 免费 GPU 资源
 - [ModelScope](https://modelscope.cn) - 魔搭社区免费资源
 - [AiTun](https://aitun.cc) - 免注册公网隧道服务
-- [colabcli_tc](https://github.com/ctz168/colabcli_tc) - 单一命名空间 exec() 与流式输出的灵感来源
 
 ---
 
